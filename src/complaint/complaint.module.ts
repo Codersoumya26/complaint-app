@@ -4,6 +4,6 @@ import { ComplaintController } from './complaint.controller';
 
 @Module({
   providers: [ComplaintService],
-  controllers: [ComplaintController]
+  controllers: [ComplaintController],
 })
 export class ComplaintModule {}
